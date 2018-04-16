@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.3.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -40,7 +40,7 @@ group :production do
 end
 
 group :development do
-  gem 'quiet_assets' 
+  gem 'quiet_assets'
   gem 'web-console','~> 2.0'
 end
 

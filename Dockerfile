@@ -1,7 +1,7 @@
-FROM ruby:2.3.1-alpine
+FROM ruby:2.3.7-alpine
 MAINTAINER Zack Siri <zack@codemy.net>
 
-RUN apk --update add --virtual build-dependencies \ 
+RUN apk --update add --virtual build-dependencies \
                                build-base \
                                libxml2-dev \
                                libxslt-dev \
