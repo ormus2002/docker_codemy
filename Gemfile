@@ -27,8 +27,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'redis'
 gem 'redis-namespace'
 
-gem 'elasticsearch-rails'
-gem 'elasticsearch-model'
+# gem 'elasticsearch-rails'
+# gem 'elasticsearch-model'
+gem 'elasticsearch-model', git: 'https://github.com/elastic/elasticsearch-rails.git', branch: 'master'
+gem 'elasticsearch-rails', git: 'https://github.com/elastic/elasticsearch-rails.git', branch: 'master'
 gem 'bootstrap-sass'
 gem 'sidekiq'
 gem 'refiner'
